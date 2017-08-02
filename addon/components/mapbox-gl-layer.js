@@ -3,7 +3,7 @@ import BaseLayer from 'ember-leaflet/components/base-layer';
 export default BaseLayer.extend({
 
   leafletOptions: [
-    'token',
+    'accessToken',
     'style'
   ],
 
